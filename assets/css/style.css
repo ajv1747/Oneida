@@ -526,7 +526,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ffde9e;
+  background: red;
   margin: 4px 10px;
 }
 
@@ -659,11 +659,12 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #ebebeb;
+
   padding: 80px 30px;
-  transition: all ease-in-out 0.3s;
   background: #fff;
   display: inline-block;
-  width: 100%
+  width: 100%;
+  background-color: #F0F0F0;
 }
 
 .services .icon-box .icon {
@@ -671,18 +672,15 @@ section {
   width: 64px;
   height: 64px;
   background: #ffc451;
-  border-radius: 4px;
   display: inline-block;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  transition: 0.3s;
 }
 
 .services .icon-box .icon i {
   color: #151515;
   font-size: 28px;
-  transition: ease-in-out 0.3s;
 }
 
 .services .icon-box h4 {
@@ -693,14 +691,14 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #151515;
-  transition: ease-in-out 0.3s;
+  color: black;
   top: 50%;
-  transform: translateY(-50%);
+  text-shadow: 2px 2px 4px white;
+  
 }
 
 .services .icon-box h4 a:hover {
-  color: #ffc451;
+  color: red;
 }
 
 .services .icon-box p {
@@ -709,10 +707,14 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
-  border-color: #fff;
+.services .icon-box-action:hover {
+  border-width: medium;
+  border-color: red;
+  border-radius: 25px;
+  border-style: outset;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  transform: translateY(-10px);
+  transition: all ease-in-out 0.3s;
+  background-color:#D6D6D6;
 }
 
 /*--------------------------------------------------------------
