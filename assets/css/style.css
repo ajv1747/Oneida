@@ -686,6 +686,7 @@ section {
 
 .services .icon-box h4 {
   font-weight: 700;
+  margin-top: 15px;
   margin-bottom: 15px;
   font-size: 24px;
 }
@@ -693,6 +694,8 @@ section {
 .services .icon-box h4 a {
   color: #151515;
   transition: ease-in-out 0.3s;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .services .icon-box h4 a:hover {
