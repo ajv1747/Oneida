@@ -20,6 +20,7 @@ a {
 a:hover {
   color: #ffd584;
   text-decoration: none;
+  transform: scale(1.2);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -503,7 +504,11 @@ section {
 .section-title {
   padding-bottom: 40px;
 }
-
+.section-border{
+  border-style:outset;
+  padding: 18px;
+  background-color: #ffc451;
+}
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
