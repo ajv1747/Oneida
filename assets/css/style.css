@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #383838;
 }
 
 a {
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(145, 145, 145, 0.326);
+  background: rgba(145, 145, 145, 0.651);
 }
 
 #header .logo {
@@ -417,6 +417,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 74px;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 #hero h1 {
@@ -540,6 +541,15 @@ section {
   font-family: "Poppins", sans-serif;
   color: #151515;
 }
+.employ .section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #e7e7e7;
+}
 
 /*--------------------------------------------------------------
 # About
@@ -555,6 +565,15 @@ section {
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   color: #c20618
+}
+
+.about .content h4{
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.about .content h4 i{
+  color: #c20618;
 }
 
 .about .content ul {
@@ -573,6 +592,9 @@ section {
   left: 0;
   top: -3px;
   color: #c20618;
+}
+.about .content p{
+  margin-bottom: 3rem;
 }
 
 .about .content p:last-child {
@@ -660,6 +682,84 @@ section {
   background-size: cover;
   min-height: 400px;
 }
+
+/*--------------------------------------------------------------
+# Employment
+--------------------------------------------------------------*/
+.employ{
+  background: url("../img/braided.jpg") fixed center center;
+  background-size: cover;
+}
+
+.employ .section-descript {
+  color: rgb(184, 184, 184);
+}
+
+.employ .section-title {
+  color: #F0F0F0;
+}
+
+.employ .icon-box {
+  text-align: center;
+  border: 1px solid #ebebeb;
+  
+  padding: 30px 30px;
+  background: #fff;
+  display: inline-block;
+  width: 100%;
+  background-image: #F0F0F0;
+}
+
+.employ .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #c20618;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.employ .icon-box .icon i {
+  color: #151515;
+  font-size: 28px;
+}
+
+.employ .icon-box h4 {
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.employ .icon-box h4 a {
+  color: black;
+  top: 50%;
+  text-shadow: 2px 2px 4px white;
+  
+}
+
+.employ .icon-box h4 a:hover {
+  color:#707070;
+}
+
+.employ .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.employ .icon-box-action:hover {
+  border-width: medium;
+  border-color: red;
+  border-radius: 25px;
+  border-style: outset;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+  background-color:#D6D6D6;
+}
+
 
 /*--------------------------------------------------------------
 # Services
