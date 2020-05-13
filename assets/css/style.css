@@ -560,6 +560,9 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
+.about .section-title{
+  padding-bottom: 20px;
+}
 .about .content h3 i {
   font-weight: 700;
   font-size: 28px;
@@ -568,7 +571,7 @@ section {
 }
 
 .about .content h4{
-  font-weight: 500;
+  font-weight: 250;
   font-family: "Poppins", sans-serif;
 }
 
@@ -823,6 +826,21 @@ section {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
   background-color:#D6D6D6;
+}
+
+.services .cta-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid rgb(49, 49, 49);
+  color: rgb(49, 49, 49);
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------
