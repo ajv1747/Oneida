@@ -563,6 +563,12 @@ section {
 .about .section-title{
   padding-bottom: 20px;
 }
+
+.about .history-box{
+  border: 2px solid #c20618;
+  padding: 10px;
+}
+
 .about .content h3 i {
   font-weight: 700;
   font-size: 28px;
