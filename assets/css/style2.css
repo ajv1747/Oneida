@@ -5,6 +5,18 @@
 * License: https://bootstrapmade.com/license/
 */
 
+.rail h5{
+  font-style: italic !important;
+  color:gray;
+  text-decoration: underline;
+}
+.rail h6 i{
+  font-weight: 500;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  color: #c20618;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
