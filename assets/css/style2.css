@@ -7,7 +7,7 @@
 
 .rail h5{
   font-style: italic !important;
-  color:gray;
+  color: #687075;
   text-decoration: underline;
 }
 .rail h6 i{
@@ -17,6 +17,9 @@
   color: #c20618;
 }
 
+.rail .container{
+  margin-top: 40px;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -689,6 +692,7 @@ section {
 .tabs .tab p span{
   color: rgb(185, 0, 0);
   font-weight: 550;
+  text-decoration: underline;
 }
 .tabs input[type="radio"] {
 	display: none;
