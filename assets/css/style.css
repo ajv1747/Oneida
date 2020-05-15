@@ -632,9 +632,10 @@ section {
 .tabs {
 	display: flex;
   flex-wrap: wrap;
-  margin-bottom:0px;;
+  margin-bottom: 50px;
   width: 100%;
 }
+
 .tabs label {
   order: 1; 
   box-sizing: border-box;
@@ -650,15 +651,23 @@ section {
   transition: background ease 0.2s;
 }
 .tabs .tab {
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
   order: 99;
   flex-grow: 1;
 	width: 100%;
 	display: none;
-  padding: 1rem;
   background: rgb(218, 218, 218);
   color:black;
   border-color:black;
   border-width:thin;
+}
+
+.tabs .tab h4{
+  margin-top:10px;
+  margin-bottom: 10px;
 }
 
 .tabs .tab p{
