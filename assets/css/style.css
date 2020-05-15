@@ -555,7 +555,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 28px;
   font-family: "Poppins", sans-serif;
 }
@@ -567,10 +567,20 @@ section {
 .about .history-box{
   border: 2px solid #c20618;
   padding: 10px;
+  position: absolute;
+  right: 0px;
+  width: 33%;
+  background-color: #dfdfdf;
+  
+}
+
+.about .content{
+  width:66%;
+  padding-left:10px;
 }
 
 .about .content h3 i {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   color: #c20618
@@ -609,6 +619,83 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+/*--------------------------------------------------------------
+# Rail
+--------------------------------------------------------------*/
+.rail-head h2{
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.tabs {
+	display: flex;
+  flex-wrap: wrap;
+  margin-bottom:0px;;
+  width: 100%;
+}
+.tabs label {
+  order: 1; 
+  box-sizing: border-box;
+  text-align: center;
+  width: 19%;
+	padding: 1rem .5rem;
+  margin-right: 0.2rem;
+  margin-bottom:0px;
+	cursor: pointer;
+  background: rgb(185, 0, 0);
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+	width: 100%;
+	display: none;
+  padding: 1rem;
+  background: rgb(218, 218, 218);
+  color:black;
+  border-color:black;
+  border-width:thin;
+}
+
+.tabs .tab p{
+  margin-bottom:5px;
+}
+
+.tabs .tab p span{
+  color: rgb(185, 0, 0);
+  font-weight: 550;
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"]:checked + label {
+  background: rgb(218, 218, 218);
+  color:black;
+  border:black;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+  border-width: 10px;
+  border:black;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Clients
