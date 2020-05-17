@@ -119,11 +119,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background: rgba(145, 145, 145, 0.8);
+  background: rgba(29, 29, 29, 0.8);
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(145, 145, 145, 0.651);
+  background: rgba(77, 77, 77, 0.651);
 }
 
 #header .logo {
@@ -557,12 +557,12 @@ section {
 .driver-page{
   padding-left: 2rem;
   padding-right: 1.5rem;
-  padding-bottom: 2rem;
-  background: url("../img/black-background-1.jpg") fixed center center;
+  background: url("../img/black-diamond-plate.jpg") fixed center center;
   background-size: cover;
 }
 .driver-page .title{
   padding-top: 6rem;  
+  margin-left:55px;
   font-family: "Poppins", sans-serif;
 }
 .driver-page .title h2{
@@ -576,7 +576,9 @@ section {
 }
 
 .driver-page .driver-content{
-  background: #ffffffa6;
+  margin-left:50px;
+  margin-right:50px;
+  background: #ffffffe8;
   color:black;
   padding:1em;
   box-shadow: 2px 2px #0000007c;
@@ -609,6 +611,35 @@ section {
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
   margin-right: 0em;
+}
+.driver-page .locations{
+  margin-left:50px;
+  margin-right:50px;
+  background: #ffffffe8;
+  color:black;
+  padding:1em;
+  box-shadow: 2px 2px #0000007c;
+}
+.driver-page .locations p{
+  font-size: 20px;
+}
+.driver-page .locations li{
+  font-style: italic;
+}
+
+.driver-page .page-footer{
+  margin-top:15px;
+  padding-left: -2rem;
+  padding-right: -1.5rem;
+  padding: 5px;
+  font-size:18px;
+  color:white;
+  background:black;
+  border-top: 2px solid #c20618;
+}
+.driver-page .page-footer span{
+  color:#c20618;
+  text-emphasis: sesame;
 }
 
 /*--------------------------------------------------------------
