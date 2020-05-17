@@ -555,16 +555,60 @@ section {
 # Driver Page
 --------------------------------------------------------------*/
 .driver-page{
-  margin-left: 2rem;
-  margin-right: 1.5rem;
-  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+  background: url("../img/black-background-1.jpg") fixed center center;
+  background-size: cover;
 }
 .driver-page .title{
-  margin-top: 6rem;  
+  padding-top: 6rem;  
   font-family: "Poppins", sans-serif;
 }
 .driver-page .title h2{
   font-weight: 600;
+  color:white;
+  text-shadow: 2px 2px #00000079;
+}
+
+.driver-page ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.driver-page .driver-content{
+  background: #ffffffa6;
+  color:black;
+  padding:1em;
+  box-shadow: 2px 2px #0000007c;
+}
+.driver-page .driver-content p{
+  font-size: 20px;
+}
+.driver-page .driver-content ul li::before {
+  content:  "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: black; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.driver-page .driver-content .outer-list ul li::before {
+  content:  " \2713";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #c20618; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.driver-page .locations ul li::before {
+  content:  "";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: black; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  margin-right: 0em;
 }
 
 /*--------------------------------------------------------------
