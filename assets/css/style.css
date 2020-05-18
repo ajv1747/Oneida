@@ -628,14 +628,13 @@ section {
 }
 
 .driver-page .page-footer{
-  margin-top:15px;
-  padding-left: -2rem;
-  padding-right: -1.5rem;
-  padding: 5px;
   font-size:18px;
+  margin-top:20px;
+  padding-bottom: 20px;
   color:white;
   background:black;
   border-top: 2px solid #c20618;
+  width:100%;
 }
 .driver-page .page-footer span{
   color:#c20618;
